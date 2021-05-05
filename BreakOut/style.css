@@ -1,0 +1,169 @@
+h1 {
+    text-align: center;
+    color: rgb(110, 10, 10);
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(110, 10, 10);
+}
+
+.about {
+    position: center;
+    margin: 50px
+}
+
+#aboutButton {
+    font-size: 17px;
+    color: rgb(110, 10, 10);
+    text-decoration: solid;
+    text-transform: uppercase;
+    background-color: rgb(215, 230, 238);
+    padding: 10px 10px;
+    text-shadow: 1px 1px;
+    border-radius: 30px;
+    border: 3px solid grey;
+    border-top: rgb(153, 162, 167);
+    border-bottom: 3px solid rgb(114, 116, 119);
+    cursor: pointer;
+}
+
+#aboutButton:hover {
+    background-color: rgb(235, 96, 32);
+    transform: scale(1.2) translateX(4px);
+}
+
+.modal {
+    display: none;
+    /* Hidden by default
+    position: fixed; /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100vw;
+    /* Full width */
+    height: 100vh;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 2px solid #888;
+    width: 70%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.start {
+    position: center;
+    margin: 50px
+}
+
+#startButton {
+    font-size: 17px;
+    color: rgb(110, 10, 10);
+    text-decoration: solid;
+    text-transform: uppercase;
+    background-color: rgb(215, 230, 238);
+    padding: 10px 10px;
+    text-shadow: 1px 1px;
+    border-radius: 30px;
+    border: 3px solid grey;
+    border-top: rgb(153, 162, 167);
+    border-bottom: 3px solid rgb(114, 116, 119);
+    cursor: pointer;
+}
+
+#startButton:hover {
+    background-color: rgb(235, 96, 32);
+    transform: scale(1.2) translateX(4px);
+}
+
+#pauseButton {
+    font-size: 17px;
+    color: rgb(110, 10, 10);
+    text-decoration: solid;
+    text-transform: uppercase;
+    background-color: rgb(215, 230, 238);
+    padding: 10px 10px;
+    text-shadow: 1px 1px;
+    border-radius: 30px;
+    border: 3px solid grey;
+    border-top: rgb(153, 162, 167);
+    border-bottom: 3px solid rgb(114, 116, 119);
+    cursor: pointer;
+}
+
+#pauseButton:hover {
+    background-color: rgb(235, 96, 32);
+    transform: scale(1.2) translateX(4px);
+}
+
+.gameOver {
+    position: center;
+    margin: 50px
+}
+
+#closeButton {
+    font-size: 17px;
+    color: rgb(110, 10, 10);
+    text-decoration: solid;
+    text-transform: uppercase;
+    background-color: rgb(215, 230, 238);
+    padding: 10px 10px;
+    text-shadow: 1px 1px;
+    border-radius: 30px;
+    border: 3px solid grey;
+    border-top: rgb(153, 162, 167);
+    border-bottom: 3px solid rgb(114, 116, 119);
+    z-index: -1;
+}
+
+#closeButton:hover {
+    background-color: rgb(235, 96, 32);
+    transform: scale(1.2) translateX(4px);
+}
+
+footer {
+    text-align: center;
+    color: rgb(110, 10, 10);
+    font-size: 17px;
+    text-align: center;
+}
+
+body {
+    background-image: url('includes/break_brick.jpg');
+}
+
+#myCanvas {
+    opacity: 0.9;
+    display: block;
+    margin: 0 auto;
+    z-index: -1;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Breakout Game 2D in JavScript</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <h1 style="font-size:60px;">Breakout Game</h1>
+  <h2><span>Game Menu
+      <!-- Trigger/Open The Modal -->
+      <div class="about"></div>
+          <button id="aboutButton" onclick="modalOpen()">About Game</button>
+      <!-- The Modal -->
+      <div onclick="modalClose()" class="modal" id="myModal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span onclick="modalClose()" class="close">&times;</span>
+              <p>1. For winning - player should crush all bricks, after it game should end.<br>2. If player will be failed
+                 to catch the ball 3 times by stick - game should end.</p>
+        </div>
+      </div>
+      <div class="start">
+          <button id="startButton" onclick="startGame()">Start Game</button>
+      </div>
+      <div class="pause">
+          <button id="pauseButton" onclick="togglePause()">Pause Game</button></div>
+      <canvas id="myCanvas" width="480" height="500"></canvas>
+      <div class="gameOver">
+          <button id="closeButton" onclick="closeGame()">Close</button>
+      </div>
+    </div>
+  </h2>
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="headline">
+        <p><strong>Developed by Lola Shepota</strong></p>
+    </div>
+  </footer>
+  <script src="jquery-3.5.1.js"></script>
+  <script src="modal.js"></script>
+  <script src="paused.js"></script>
+  <!-- <script src="start.js"></script> -->
+  <script src="test1.js"></script>
+</body>
+</html>
